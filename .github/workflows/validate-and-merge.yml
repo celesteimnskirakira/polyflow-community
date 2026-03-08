@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install Polyflow
-        run: pip install polyflow-ai
+        run: pip install "git+https://github.com/celesteimnskirakira/polyflow.git@feature/polyflow-mvp"
 
       - name: Validate changed workflows
         run: |
